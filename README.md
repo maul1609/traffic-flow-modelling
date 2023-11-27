@@ -14,7 +14,7 @@ The model predicted the flow of traffic down a straight road in the suburbs. It 
 
 The accelerations of vehicles are scaled as follows:
 
-$a=\frac{|v-u|}{150\times acc_{peak}$
+$a=\frac{|v-u|}{150\times acc_{peak}}$
 
 where $u$ is the initial speed, and $v$ is the final speed. This is done so vehicles do not crash or run through red traffic lights (as long as they are within an adequate stopping distance).
 
