@@ -14,9 +14,9 @@ The model predicted the flow of traffic down a straight road in the suburbs. It 
 
 The accelerations of vehicles are scaled as follows:
 
-<p align="center"><img src="/traffic-modelling/tex/76c82de7decce607c2fafa9943edfbad.svg?invert_in_darkmode&sanitize=true" align=middle width=415.36157519999995pt height=39.428498999999995pt/></p>
+$a=\frac{|v-u|}{150\times acc_{peak}$
 
-where <img src="/traffic-modelling/tex/6dbb78540bd76da3f1625782d42d6d16.svg?invert_in_darkmode&sanitize=true" align=middle width=9.41027339999999pt height=14.15524440000002pt/> is the initial speed, and <img src="/traffic-modelling/tex/6c4adbc36120d62b98deef2a20d5d303.svg?invert_in_darkmode&sanitize=true" align=middle width=8.55786029999999pt height=14.15524440000002pt/> is the final speed. This is done so vehicles do not crash or run through red traffic lights (as long as they are within an adequate stopping distance).
+where $u$ is the initial speed, and $v$ is the final speed. This is done so vehicles do not crash or run through red traffic lights (as long as they are within an adequate stopping distance).
 
 ## Dependencies <a name="Dependencies"></a>
 
